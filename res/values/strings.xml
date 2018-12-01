@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">worldcup</string>
+    <string name="action_settings">Settings</string>
+    <string name="world_cup_brazil_2014">world_cup_brazil_2014</string>
+    <string name="title_activity_groups">Groups</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_matches">Matches</string>
+    <string name="title_activity_teams">Teams</string>
+    <string name="title_activity_dbteams">DBTeams</string>
+    <string name="title_activity_rss">Rss</string>
+
+</resources>

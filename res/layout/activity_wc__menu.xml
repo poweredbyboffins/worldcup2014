@@ -1,0 +1,170 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:gravity="center"
+>
+
+    <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="WorldCup 2014"
+          android:textStyle="bold"
+          android:textSize="30sp"
+          android:layout_gravity="center" 
+          android:layout_marginBottom="20dp"/>
+
+<TableLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/groups3"
+            android:onClick="displayGroups"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            
+            android:text="" 
+            >
+        </Button>
+        
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:onClick="displayMatches" 
+            android:background="@drawable/groups3"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="20dp"
+            >
+        </Button>
+        
+        
+        
+    </TableRow>
+    
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+        
+         <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Groups"
+          android:textStyle="bold"
+          android:layout_marginRight="25dp"
+          android:layout_marginBottom="20dp"/>
+         
+          <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Matches"
+          android:textStyle="bold"
+          android:layout_marginLeft="25dp"
+          android:layout_marginBottom="20dp"/>
+    
+     </TableRow>
+     
+     <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="displayTeams"
+            android:background="@drawable/groups3"
+            android:layout_marginBottom="20dp"
+            android:layout_marginRight="20dp"
+            >
+        </Button>
+        
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="displayNews"
+            android:background="@drawable/groups3"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="20dp"
+            >
+        </Button>
+
+
+    </TableRow>
+    
+     
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+        
+         <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Teams"
+          android:textStyle="bold"
+          android:layout_marginRight="25dp"
+          android:layout_marginBottom="20dp"/>
+         
+          <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="News"
+          android:textStyle="bold"
+          android:layout_marginLeft="25dp"
+          android:layout_marginBottom="20dp"/>
+    
+     </TableRow>
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/groups3"
+            android:onClick="displayPredictions"
+            android:layout_marginBottom="20dp"
+            android:layout_marginRight="20dp"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="displayHistory" 
+            android:background="@drawable/groups3"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="20dp"
+            >
+        </Button>
+    </TableRow>
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+        
+         <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Predictions"
+          android:textStyle="bold"
+          android:layout_marginRight="25dp"
+          android:layout_marginBottom="20dp"/>
+         
+          <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"	
+          android:text="History"
+          android:textStyle="bold"
+          android:layout_marginLeft="25dp"
+          android:layout_marginBottom="20dp"/>
+    
+     </TableRow>
+</TableLayout>
+
+</LinearLayout>
